@@ -452,20 +452,6 @@ main {
   z-index: 999;
 }
 
-.icon-close {
-  display: flex;
-
-  padding: 6px;
-  fill: #2e2f42;
-  stroke-width: 1px;
-  stroke: rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  border: 1px solid #e7e9fc;
-  background-color: #e7e9fc;
-  width: 24px;
-  height: 24px;
-}
-
 .modal {
   border-radius: 4px;
   width: 408px;
@@ -478,7 +464,6 @@ main {
   background: #fcfcfc;
 }
 .modal-backdrop {
-  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -502,8 +487,10 @@ main {
   padding-left: 13px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
   color: #2e2f42;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 .form-div {
   width: 360px;
@@ -642,7 +629,7 @@ main {
   height: 24px;
   background-color: #e7e9fc;
   margin-left: 336px;
-  margin-top: 0px;
+  margin-top: 24px;
   margin-bottom: 24px;
 }
 .close {
