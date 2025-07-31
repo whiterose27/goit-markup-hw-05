@@ -561,19 +561,14 @@ main {
   width: 18px;
   height: 24px;
 }
-.icon-frame {
-  position: absolute;
-  top: 50%;
-  left: 75%;
-  transform: translate(-50%, -50%);
-  width: 24px;
-  height: 24px;
-}
+
 .icon-checkbox {
   display: none;
   border-radius: 5px;
   background-color: #404bbf;
+
   border: 1px solid #404bbf;
+
   width: 16px;
   height: 16px;
   padding: 2px;
