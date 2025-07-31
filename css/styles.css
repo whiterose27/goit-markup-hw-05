@@ -580,7 +580,7 @@ main {
 .textarea {
   resize: none;
   height: 138px;
-  padding-left: 15px;
+  padding-left: 10px;
   padding-top: 10px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
