@@ -596,7 +596,11 @@ main {
   color: #8e8f99;
 }
 .input-checkbox {
-  display: none;
+  border-radius: 2px;
+  border: 1px solid #000;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  width: 16px;
+  height: 16px;
 }
 .span-privacy {
   line-height: 1.33333;
